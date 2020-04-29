@@ -1,0 +1,164 @@
+body {
+  margin: 0 0 0 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  padding-top: 100px;
+  position: relative;
+}
+
+h1 {
+  color: purple;
+  font-size: 5.625rem;
+  margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: purple;
+  font-weight: normal;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 10px;
+}
+
+.intro {
+  width: 30%;
+  margin: 0 auto 0 auto;
+  line-height: 2;
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-weight: bolder;
+  color: blue;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.middle-container {
+  background-color: #08AEEA;
+  background-image: linear-gradient(180deg, #08AEEA 0%, #2AF598 100%);
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px 0;
+}
+
+.stud {
+  text-decoration: underline;
+}
+
+p {
+  font-family: verdana, sans-serif;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.profile_photo {
+  margin-top: 100px;
+  height: 15%;
+  width: 15%;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.hotdog {
+  float: left;
+  margin-right: 30px;
+  height: 25%;
+  width: 25%;
+}
+
+.dev {
+  margin-right: 30px;
+  float: left;
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+}
+
+.photoshop {
+  margin-left: 20px;
+  float: right;
+  height: 25%;
+  width: 25%;
+  border-radius: 50%;
+}
+
+hr {
+  border-style: none;
+  border-top: 7px dotted;
+  width: 5%;
+  color: #11999E;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 40px auto;
+  line-height: 2;
+}
+
+.myButton {
+  margin: 20px 0 50px 0;
+  box-shadow: inset 0px -3px 7px 0px #29bbff;
+  background: linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+  background-color: #2dabf9;
+  border-radius: 6px;
+  border: 1px solid #0b0e07;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  padding: 9px 23px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #263666;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+  background-color: #0688fa;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.copyright {
+  color: grey;
+  font-size: 0.75rem;
+  padding: 20px 0 20px 0;
+}
